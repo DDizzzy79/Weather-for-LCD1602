@@ -1,4 +1,6 @@
-# LCD1602HeWeatherPull
+# Weather for LCD1602
+![a84c29c7402d0e98d61d1eafaf8e504](https://user-images.githubusercontent.com/72267897/143870181-1b8a27c8-cef2-42ea-9546-cc2ae6f0b678.jpg)
+
 * Simple Weather Check base on Hefeng api, Work on raspberry Pi
 * 简单基于和风天气的查询 可以被树莓派使用
 # How To Use?
