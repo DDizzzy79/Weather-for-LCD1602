@@ -11,6 +11,7 @@ pi@raspberrypi:~ $ sudo i2cdetect -y 1 
 ```
 TO find your i2c Ports, Ater that, config The `LCD1602.py` File , Change The i2c setting to the one you found
 Also, In order to set the ports of i2c between RaspberryPi , Use `gpio readall` to check
+
 ![image](https://user-images.githubusercontent.com/72267897/143859978-d1a43a35-c8fa-403b-99c4-8bff2853a95b.png)
 
 GND --- GND
