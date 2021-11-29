@@ -12,7 +12,7 @@ def GetInfo(location):
     url = "https://devapi.qweather.com/v7/weather/now?" + Key + "&location=" + location
     return requests.get(url).json()
 
-def RetWeatehe():
+def RetWea():
     CityId = Getcity(CityName)
     return GetInfo(CityId)['now']['temp']
 
