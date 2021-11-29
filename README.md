@@ -1,5 +1,5 @@
 
-# ![](https://img.shields.io/badge/Rasp-3B%2B-blueviolet) Weather for LCD1602
+# ![](https://img.shields.io/badge/Rasp-3B%2B-blueviolet)  ![](https://img.shields.io/badge/python-2.7-blue) ![](https://img.shields.io/badge/-linux-blue) Weather for LCD1602
 ![a84c29c7402d0e98d61d1eafaf8e504](https://user-images.githubusercontent.com/72267897/143870181-1b8a27c8-cef2-42ea-9546-cc2ae6f0b678.jpg)
 
 * Simple Weather Check base on Hefeng api, Work on raspberry Pi
