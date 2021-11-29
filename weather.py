@@ -11,7 +11,11 @@ def Getcity(CityName):
 def GetInfo(location):
     url = "https://devapi.qweather.com/v7/weather/now?" + Key + "&location=" + location
     return requests.get(url).json()
-CityId = Getcity(CityName)
-WeatherNow = GetInfo(CityId)
-print("It is: " + WeatherNow['now']['temp'] + " degree")
+
+def RetWeatehe():
+    CityId = Getcity(CityName)
+    return GetInfo(CityId)['now']['temp']
+
+if __name__ == '__main__':
+    print("It is: " + WeatherNow['now']['temp'] + " degree")
     
